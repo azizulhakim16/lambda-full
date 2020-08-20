@@ -1,0 +1,317 @@
+body{
+	margin: 0;
+	padding-top: 0;
+	font-family: 'Yeseva One', cursive;
+}
+
+	/*----------------------------------------------header start----------------------------------------------*/
+.preheader::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(180deg, black, transparent);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .55;
+}
+.preheader>*{
+	z-index: 10;
+	position: relative;
+}
+.preheader{
+	width: 100%;
+	background-position: center;
+	position: relative;
+	margin: 0;
+}
+header{
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.preheader{}
+.menu{}
+.navbar-cus{
+	padding: 0;
+}
+.logo{
+	position: absolute;
+}
+.logo-text{
+	position: relative;
+  margin: 39px -12px;
+}
+.cus-toggler{}
+.cus-toggler:focus{
+	outline: none;
+}
+.menu-nav{}
+.menu-nav ul{}
+.menu-nav ul li{
+	padding-right: 50px;
+}
+.menu-nav ul li:last-child{
+	padding-right: 0px;
+}
+.menu-nav ul li a{
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 21px;
+	color: #fff !important;
+	border-top: 2px solid transparent;
+	padding: 42px 0;
+	transition: .5s;
+}
+.menu-nav ul li:hover a{
+	border-top: 2px solid #dab33e;
+	color: #dab33e !important;
+}
+.banner{
+	padding: 120px 0 ;
+}
+.banner h1{
+	font-size: 70px;
+	color: #fff;
+	word-spacing: 10px;
+  letter-spacing: 2px;
+}
+.banner img{
+	padding: 30px 0;
+}
+.banner button{
+	font-family: 'Lato', sans-serif;
+	width: 230px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, .3);
+  color: #fff;
+  border: 1px solid #fff;
+  transition: .4s;
+  margin: 15px;
+}
+.banner button:focus{
+	outline: none;
+}
+.banner button:hover{
+	background-color: rgba(000, 000, 000, .7);
+	color: #fff;
+	border: 1px rgba(000, 000, 000, .7);
+}
+/*----------------------------------------------hader end----------------------------------------------*/
+
+/*----------------------------------------------section (cook and platter) start----------------------------------------------*/
+.cook-platter{
+	background-image: url(../images/cpf-b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wrapper{
+	padding: 70px 0 75px;
+}
+.chef-note{
+	margin-top: 40px;
+}
+.wrapper h2{
+	font-size: 36px;
+	color: #cc9900;
+}
+.wrapper img{}
+img.platter{
+	width: 100%;
+}
+.wrapper p{
+	font-family: 'Lato', sans-serif;
+	margin: 30px 0;
+	word-spacing: 2px;
+}
+img.chef-img{
+	margin-left: 150px;
+}
+
+/*----------------------------------------------section (cook and platter) end----------------------------------------------*/
+
+/*----------------------------------------------section (fine ingredients) start----------------------------------------------*/
+.fine-ingredients{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+.ing-section{
+	background-color: rgba(000, 000, 000, .7);
+	padding-top: 60px;
+}
+.ing-section h2{
+	color: #fff;
+}
+.ing-section img{}
+.ing-section p{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	margin: 30px 0;
+	word-spacing: 2px;
+}
+.ing-group{
+	margin: 60px 0;
+} 
+.i-img{
+	width: 115px;
+	height: 115px;
+	border: 4px solid rgba(255, 255, 255, .1);
+	border-radius: 50%;
+}
+/*----------------------------------------------section (fine ingredients) end----------------------------------------------*/
+
+/*----------------------------------------------section (food list) start----------------------------------------------*/
+.food-list{
+	background-image: url(../images/m-b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.single-item{
+	padding: 30px 0;
+}
+.food-menu-top{}
+.food-menu-top h2{}
+.food-menu-top img{}
+.food-name-price{
+	margin-top: 40px;
+}
+.food-name-price h3{
+	font-size: 21px;
+	color: #cc9900;
+	display: inline-block;
+}
+.food-name-price h4{
+	font-size: 21px;
+	color: #cc9900;
+	float: right;
+}
+.food-name-price p{
+	margin: 0;
+	border-top: 1px solid rgba(204,153,0, .2)
+}
+/*----------------------------------------------section (food list) end----------------------------------------------*/
+
+/*----------------------------------------------section (guest review) start----------------------------------------------*/
+.guest-review{
+	background-image: url(../images/banner-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.review-section{
+	background-color: rgba(000, 000, 000, .7);
+	
+}
+.review-section h2{
+	color: #fff;
+	margin-top: 75px;
+}
+.review-section h3{
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+  line-height: 40px;
+	margin: 30px 0;
+}
+.review-section p{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 50px;
+}
+/*----------------------------------------------section (guest review) end----------------------------------------------*/
+
+/*----------------------------------------------section (forms) start----------------------------------------------*/
+.forms{
+	background-image: url(../images/m-b.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+img.fsp-img{
+	width: 100%;
+}
+.cn-cus{
+	margin-top: 0;
+}
+.cn-cus h2{}
+.cn-cus p{
+	margin-bottom: 23px;
+}
+.form{
+	margin-left: 20px;
+}
+.form-style{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #cc9900;
+	margin-top: 30px;
+	padding-right: 20px;
+}
+
+.ind-form-style{
+  width: 94%;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	border-radius: 0;
+	transition: .4s;
+}
+.ind-form-style:focus{
+	outline: none;
+}
+.ind-form-style:hover{
+	border: 1px solid #cc9900; 
+}
+.booking-btn{
+	width: 200px;
+	height: 35px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background-color: #dab33e;
+	margin-top: 35px;
+	transition: .4s;
+	border: none;
+}
+.booking-btn:focus{
+	outline: none;
+}
+.booking-btn:hover{
+	background-color: #cc9900;
+}
+/*----------------------------------------------section (forms) end----------------------------------------------*/
+
+/*----------------------------------------------footer start----------------------------------------------*/
+footer{
+	background-color: #191919;
+}
+.about{}
+.footer-common{
+	margin: 20px 0;
+}
+.footer-common h4{
+	color: #fff;
+}
+.footer-common img{}
+.footer-common p{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+.opening-hours{}
+.our-location{}
+.our-location i{
+	color: #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.copyright p{
+	margin: 0;
+	margin-top: 20px;
+	color: #cc9900;
+	border-top: 1px solid rgba(204,153,0, .2)
+}
+
+/*----------------------------------------------footer end----------------------------------------------*/
+
+
+

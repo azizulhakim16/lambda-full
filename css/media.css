@@ -1,0 +1,186 @@
+/*----------------------------------------Extra small devices col (portrait phones, less than 576px)----------------------------------------*/
+@media (max-width: 575.98px) {
+/*header start	*/
+.menu-nav ul li{
+	padding-right: 0;
+}
+.menu-nav ul li a{
+	font-size: 17px;
+	text-align: right;
+	padding: 0px !important;
+	border-top: none !important;
+}
+.menu-nav ul li:hover a{
+	border-top: none !important;
+	color: #dab33e !important;
+}
+.banner {
+  padding: 50px 0;
+}
+.banner h1{
+	font-size: 50px;
+	color: #fff;
+	word-spacing: 5px;
+  letter-spacing: 1px;
+}
+.banner button{
+	margin: 8px;
+}
+/*header end*/
+/*section (cook and platter) start*/
+.wrapper{
+	padding: 40px 0 45px;
+}
+.wrapper h2 {
+  font-size: 28px;
+}
+.chef-note {
+  margin-top: 0px;
+}
+/*section (cook and platter) end*/
+
+/*section (food list) start*/
+.single-item{
+	padding: 20px 0;
+}
+.booking-btn{
+	margin-bottom: 35px;
+}
+/*section (food list) end*/
+}
+/*----------------------------------------Small devices sm (landscape phones, 576px and up)----------------------------------------*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu-nav ul li{
+	padding-right: 0;
+}
+.menu-nav ul li a{
+	font-size: 18px;
+	text-align: right;
+	padding: 0px !important;
+	border-top: none !important;
+}
+.menu-nav ul li:hover a{
+	border-top: none !important;
+	color: #dab33e !important;
+}
+.banner {
+  padding: 60px 0;
+} 
+.banner h1{
+	font-size: 60px;
+	word-spacing: 6px;
+  letter-spacing: 1px;
+}
+.banner button{
+	margin: 10px;
+}
+/*header end*/
+/*section (cook and platter) start*/
+.wrapper{
+	padding: 50px 0 55px;
+}
+.wrapper h2 {
+  font-size: 30px;
+}
+.chef-note {
+  margin-top: 0px;
+}
+/*section (cook and platter) end*/
+
+/*section (food list) start*/
+.single-item{
+	padding: 20px 0;
+}
+/*section (food list) end*/
+}
+/*----------------------------------------Medium devices md (tablets, 768px and up)----------------------------------------*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu-nav ul li{
+	padding-right: 0;
+}
+.menu-nav ul li a{
+	font-size: 20px;
+	text-align: right;
+	padding: 0px !important;
+	border-top: none !important;
+}
+.menu-nav ul li:hover a{
+	border-top: none !important;
+	color: #dab33e !important;
+}
+.banner {
+  padding: 80px 0;
+} 
+.banner h1{
+	font-size: 70px;
+	word-spacing: 8px;
+  letter-spacing: 2px;
+}
+/*header end*/
+/*section (cook and platter) start*/
+.wrapper{
+	padding: 60px 0 65px;
+}
+.wrapper h2 {
+  font-size: 32px;
+}
+img.platter { 
+  margin-top: 45px;
+}
+/*section (cook and platter) end*/
+
+/*section (food list) start*/
+.single-item{
+	padding: 25px 0;
+}
+/*section (food list) end*/
+/*section (form start)*/
+img.fsp-img {
+  width: 106%;
+  height: 108.7%;
+  margin-top: 14px;
+}
+.form {
+  margin-left: 30px;
+}
+.form-style{
+	margin-top: 9px;
+}
+/*section (form end)*/
+}
+
+/*----------------------------------------Large devices lg (desktops, 992px and up)----------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.menu-nav ul li {
+  padding-right: 30px;
+}
+/*header end*/
+/*section (cook and platter) start*/
+
+img.platter {
+  width: 100%;
+  margin-top: 40px;
+}
+img.chef-img{
+	margin-left: 100px;
+}
+/*section (cook and platter) end*/
+/*section form start*/
+.cn-cus h2{
+	font-size: 32x;
+}
+.cn-cus p{
+	margin: 0;
+}
+.form-style{
+	margin-top: 15px;
+}	
+/*section form start*/
+}
+/*----------------------------------------Extra large devices xlg (large desktops, 1200px and up)----------------------------------------*/
+@media (min-width: 1200px) {
+
+}
